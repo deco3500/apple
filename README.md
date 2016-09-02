@@ -62,3 +62,10 @@ Where possible, best practices will be followed for file naming conventions. Thi
 ## Plan
 
 ## Tags
+
+## References
+Stanford University Libraries. Case Study: File Naming Done Well.[ONLINE] Available at: https://library.stanford.edu/research/data-management-services/case-studies/case-study-file-naming-done-well [Accessed 31 August 2016]
+
+Exadox Paperless Office Solutions. Folder and File Naming Convention - 10 Rules for Best Practice”. [ONLINE] Available at: http://www.exadox.com/en/articles/file-naming-convention-ten-rules-best-practice [Accessed 31 August 2016]
+
+TED.com. 2016. Eli Pariser: Beware online "filter bubbles" | TED Talk | TED.com. [ONLINE] Available at: https://www.ted.com/talks/eli_pariser_beware_online_filter_bubbles. [Accessed 01 September 2016]
