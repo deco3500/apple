@@ -1,4 +1,4 @@
-# Bubbler
+# Bubbler Proposal
 
 ## Introduction
 As news sources have moved to the web, algorithms are playing an increasingly critical role in delivering news to consumers. Be it video, articles, or shorter posts, algorithms are filtering the type of news on a per person basis in an attempt to increase click through rates. The main result is an increase in news that aligns to a person's pre-existing views. In terms of politics, someone who historically views left leaning news will be continually delivered similar content as a result of modern algorithms. 
@@ -17,6 +17,7 @@ The application is almost entirely community-driven. Users who appreciate rich v
 The application is not for those who want to hear political news aligned to their own preference. A community-driven application ensures that not one person decides what is or isn’t going to be shown on the website. For example, a pro-brexit article might be voted by users as ‘right wing’, and the site will organise so that the user sees just as much right wing articles as they do left wing articles. That way users are sure they are seeing both sides of an argument and are not ‘filtered out’ of the opposing view. The application organises the articles not by how many votes it has, but how much discussion it brings about. This can be measured by the number of comments there are on the article. This brings discussion and debate to the forefront of the website. The application will also cater for users in countries where news is heavily moderated by their federal or state government, such as Russia or UAE. The application presents the same articles globally to ensure that countries with a certain world view do not take over the page, while countries with unique viewpoints are presented with the global world view. 
 
 The application is designed for all ages and people, but it is expected that the audience be adults who read political news often. It is expected that the majority of the audience will have an above average interest in political news. The motivation for using the application is entirely up to the user. There is no ‘reward’ for voting up or down, but it is hoped that users will participate for the sake of the content sorting. We expect many people who are frustrated by the filter algorithms of online news site to ‘take refuge’ at our site. The application will be geared as such to appeal to audiences who want deep discussion, rather than a ‘quick fix’ of gossip or clickbait news. However, the application may be confronting for those who do not see opposing opinions often. These people are welcome to visit the site, but the audience is expected to be those who actively seek varied opinions and a broad range of opinions. The motivation for these people to use the app are to get an understanding of how the world thinks of a particular issue, rather than what analysts in a mainstream political news network may have. 
+
 ## Team
 Name | Student Number | Course Code | Role 
 :---:|---| :---: | :---:
@@ -62,19 +63,47 @@ Where possible, best practices will be followed for file naming conventions. Thi
 
 ## Implementation Plan
 ### Project Phases
-#### 1. Research
-Research is important in defining an effective approach, and will be needed in varying stages of development, such as deciding on the tools to be used, the feature set to be included in the app itself, the target audience and analysis of the competition.
+#### 1. Research and Requirements Gathering
+Research is important in defining an effective approach, and will be needed in varying stages of development. Often, research is most beneficial in areas that have historically been neglected - such as deciding on the most appropriate tools to be used. To ensure that the research stage is as effective as possible, it’s important that all team members are on board. This will allow the group to establish clear goals and tasks, leading to less wasted time. Also critical, is that research - even if in a limited form - is maintained throughout the requirements, design and implementation stages. Without an understanding of the current user landscape, it becomes increasingly difficult to design a product that fulfills relevant needs.
 
-The first stage dependent on background research, is defining the problem space. In order to understand the problem, and ultimately the needs of the user, it is necessary to ensure that all team members have an adequate understanding of the filter bubble and it’s effects. 
+The most significant ‘research dependent’ stage, is defining the problem space. In order to understand the problem, and ultimately the needs of the user, it is necessary to ensure that the team has an adequate understanding of the filter bubble and it’s wide reaching effects. There are many sources online that relate to this topic, from research papers to TED talks. Additionally, it will be necessary to get the perspective of general users themselves. Often projects will fail, as they have overestimated the need for the service. Talking to end users directly will help the team to gauge the app’s appropriateness.
 
-#### 2. Requirements
-Put content here
+Next, it’s necessary to be familiar with the current state of the market. This includes, but is not limited to, competitors who are already beginning to address a similar problem space. Using competing products will help to get an understanding of the core concepts that have been successful, as well as those that need more work. This is a common tactic employed by many organisations. A modern example is Apple, who will often enter a market only after identifying ways of improving competing products.
 
-#### 3. Design
-Put content here
+Research is also required when deciding upon tools and methods for implementing the app itself. Whether these are organisational tools, design applications, IDEs or even third party libraries, each product or service offers varying features, each of which may hinder or help the team achieve their goals.
 
-#### 4. Implementation
-Put content here
+Finally, time should be spent identifying how the app should work. This will be further discussed within the ‘design’ stage, but at this point in the process, defining current UX techniques and interaction methods will result in a faster design process.
+
+As for the key deliverables for this stage, the most important asset is a substantial research document that outlines the above points. This will help guide the team early on, and can be expanded upon and referred to throughout the later stages of development. There will obviously  be greater emphasis upon certain points compared to others - for example, the state of the market would require more attention than decisions behind the tools to be used.
+
+
+#### 2. Design
+The design process varies from team to team and person to person, so it essential that core principles are established and agreed upon before work begins. Often, the first step is to define main screens based on core tasks. For this app, screens may represent a newsfeed, a user profile, settings, etc. These don’t have to include intricate details, but should be discussed in broad terms.
+
+Next, user goals should be assigned to each of these core tasks. For example, a user goal on the ‘newsfeed’ screen could be the ability to switch from left-leaning articles to a balanced feed in one tap. Again, exactly how this is to be achieved isn’t important yet. The focus should be on defining goals that improve the core user experience.
+
+Once these goals have been defined, the wireframe/storyboarding phase can begin. This should result in screens that loosely represent the discussions that were had in the previous two phases. Wireframes should only show the outline of general UI elements, in black and white for the sake of clarity. Depending on the final tools used, it is possible to take these wireframes and import them into a prototyping app. This will allow the interaction types and general flow to be further refined.
+
+Finally, completed mocks will be built out in Sketch, a design tool made specifically for creating user interfaces. Often during this phase, it’s common for extra screens to be established as requirements change. For example, alert views are rarely considered during the wireframing stage. After testing the wireframes in an interactive prototype however, the need for these type of assets becomes apparent.
+
+
+#### 3. Implementation
+As for the prototype itself, the individual phases are far less defined. The logical first step is to take the exported slices/assets from Sketch, and import them into the prototyping tool of choice. At this stage, the team has decided to use Invision to build out the prototype. This tool is WYSIWYG in nature, which makes building the prototype relatively straightforward. However, there are some broad phases that naturally occur when using such a tool. For example, after importing the graphic assets from Sketch, there will be a period where the team has to try and identify how many of our intended design decisions can be implemented successfully. Once this is established, a screen by screen approach will be taken.
+
+The specifics of how this will work are still to be defined, and will no doubt change as we become more familiar with the tool. Because we have very little prior knowledge of Invision, we have to allow adequate time to both learn the app and implement the prototype. This will require the research and design phases to be undertaken somewhat quickly, to ensure that we don’t run out of time. A further benefit of allowing more time for this stage, is that we can perform iterative testing of the prototype at more stages than usual.
+
+## Resources
+
+Generally, the required resources will vary depending on the stage being undertaken. For research, a large asset is the Google forms web tool. This allows us to implement questionnaires with possible future users. This data can then be collated and form the basis of UX decisions. Obviously varying forms of online content will also be required, including video and text based information.
+
+For the initial design phases, varying tools can and will be used. Pen and paper will be critical for sketching out initial ideas, before finalising these sketches in an app such as Paper by 53. When taking these wireframes and importing them into a lightweight animation tool, apps like Marvel or Pop will be useful. Which of these is used, will depend on the initial feature set. The app that can implement the greatest number of features will naturally be the first choice.
+
+For final assets, the tool of choice is Sketch by Bohemian Coding. This tool works well alongside Invision, which was a significant reason for choosing it. Beyond compatibility benefits, it also has plenty of features that exist purely for building user interfaces.
+
+If there are small parts of the UI that the team wishes to animate, these can be created in After Effects. This tool is great for individual animations, which can be exported as frames before being implemented into Invision.
+
+Finally, for implementation and testing, Invision will be used. Many of the benefits have already been discussed within this document. Beyond those listed, a large factor for choosing this tool is because of the collaborative features. Other prototyping tools such as Framer and Principle were considered, but were rejected for this reason.
+
 
 ## Tags
 ### Computing
