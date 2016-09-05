@@ -87,6 +87,7 @@ Put content here
 ### Journalism
 1. Ethics
 2. Social Responsibility
+
 ## References
 
 Exadox Paperless Office Solutions. Folder and File Naming Convention - 10 Rules for Best Practice”. [ONLINE] Available at: http://www.exadox.com/en/articles/file-naming-convention-ten-rules-best-practice [Accessed 31 August 2016]
