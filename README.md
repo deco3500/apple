@@ -19,7 +19,7 @@ The application is not for those who want to hear political news aligned to thei
 The application is designed for all ages and people, but it is expected that the audience be adults who read political news often. It is expected that the majority of the audience will have an above average interest in political news. The motivation for using the application is entirely up to the user. There is no ‘reward’ for voting up or down, but it is hoped that users will participate for the sake of the content sorting. We expect many people who are frustrated by the filter algorithms of online news site to ‘take refuge’ at our site. The application will be geared as such to appeal to audiences who want deep discussion, rather than a ‘quick fix’ of gossip or clickbait news. However, the application may be confronting for those who do not see opposing opinions often. These people are welcome to visit the site, but the audience is expected to be those who actively seek varied opinions and a broad range of opinions. The motivation for these people to use the app are to get an understanding of how the world thinks of a particular issue, rather than what analysts in a mainstream political news network may have. 
 ## Team
 Name | Student Number | Course Code | Role 
---- |:---:| --- | ---
+:---:|---| :---: | :---:
 Chris Wilkinson | 43942004 | BInfTech/BBusMan | Concept Definition
 Jesse Head | 43239151 | BInfTech | Head of UX
 Edward Liao | 43555299	| BInfTech | Communication and Team Management
@@ -38,11 +38,11 @@ Conflicts will be resolved through a voting process. Since there are three membe
 ### Communications
 Social platforms/software to be used: 
 
-- [Google Docs](docs.google.com) and [Drive](drive.google.com) for file sharing and collaboration
-- [Slack](slack.com) for communication
-- [Trello](trello.com) and [Zenhub](zenhub.com) for task management
-- [Google Calendar](calendar.google.com) for scheduling
-- [Github](github.com) for version management
+- [Google Docs](https://docs.google.com) and [Drive](https://drive.google.com) for file sharing and collaboration
+- [Slack](https://slack.com) for communication
+- [Trello](https://trello.com) and [Zenhub](https://zenhub.com) for task management
+- [Google Calendar](https://calendar.google.com) for scheduling
+- [Github](https://github.com) for version management
 
 These platforms have been chosen out of familiarity and consequently the fluency in which the team members use the software and platforms. As a result, less time will be spent learning the interface of a certain program/platform. When a new platform is introduced to the group, there will be a priority placed on learning the interfaces and basics of the platform so that optimal use of the platform is achieved. 
 
