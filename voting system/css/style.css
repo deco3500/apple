@@ -1,0 +1,48 @@
+@import 'https://fonts.googleapis.com/css?family=Roboto';
+
+*{
+	padding: 0;
+	margin: 0;
+  	font-family: 'Roboto';
+}
+body{
+	position: relative;
+}
+
+.voter-wrap{
+	width:70%;
+	position: absolute;
+	top: 50%; left: 50%;
+	transform: translate(-50%, 50%);
+	height: 500px;
+	background-color: #DDDDDD;
+	height: 100%;
+}
+.goback{
+	width: 310px;
+	background-color: pink;
+	text-align: center;
+	height: 50px;
+	line-height: 50px;
+}
+.voter, .goback{
+	width: 310px;
+	margin: 0 auto;
+	transition: width 1.5s
+}
+.vote-l, .vote-n, .vote-r{
+	width: 100px;
+	line-height: 50px;
+	text-align: center;
+	display: inline-block;
+	background-color: black;
+	color: white;
+	height: 50px;
+	font-size: 20px;
+	font-family: sans-serif;
+	transition: width 1.5s, background-color 200ms, color 200ms;
+}
+.vote-l:active, .vote-n:active, .vote-r:active{
+	background-color: white;
+	color: black;
+}
