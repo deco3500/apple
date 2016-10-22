@@ -23,20 +23,26 @@ header{
   display: flex;
   justify-content: space-between;
   margin: 0 auto;
+  margin-top: 10px;
+  padding-bottom: 10px;
 }
 .article-box{
-  width: 100px;
+  width: 200px; height: 200px;
   margin: 0;
   padding: 10px;
   color: #fff;
   background-color: #2d4552;
+  text-align: center;
 }
 .article-box h2{
-  font-size: 12px;
+  font-size: 15px;
 }
 .article-box p{
   font-size: 10px;
 }
 .article-box img{
-
+  height: 100px;
+  width: 160px;
+  margin: 0 auto;
+  background-color: pink;
 }
