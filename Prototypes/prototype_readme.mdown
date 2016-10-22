@@ -3,6 +3,10 @@ _by Eduardo_
 
 Currently there are three different prototypes
 
-- Low-fidelity clickable wireframe
-- High-fidelity clickable prototype
-- HTML/CSS prototype
+- Low-fidelity clickable wireframe (Invision prototype)
+- High-fidelity clickable prototype (Marvel Prototype)
+- HTML/CSS prototype (HTML prototype)
+
+## Marvel Prototype
+
+This prototype was completed in about a day with the help of the screens defined by the wireframe/invison prototype. A link to this prototype can be found [here](https://marvelapp.com/44h9024/screen/16054536).
