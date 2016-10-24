@@ -11,7 +11,16 @@ header{
 h1 {
     text-align: center;
 }
-
+.submit{
+  float: left;
+}
+.login-sign-up{
+  float:right;
+}
+a, a:hover, a:active, a:visited{
+  text-decoration: none;
+  color: #fff;
+}
 .head-wrap{
   /*change this*/
   width: 80%;
