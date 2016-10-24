@@ -7,6 +7,11 @@ header{
   height: 150px;
   position: relative;
 }
+
+h1 {
+    text-align: center;
+}
+
 .head-wrap{
   /*change this*/
   width: 80%;
@@ -34,6 +39,7 @@ header{
   color: #fff;
   background-color: #2d4552;
   text-align: center;
+    box-shadow: 0 7px 14px rgba(0,0,0,0.25)
 }
 .article-box h2{
   font-size: 15px;
@@ -45,4 +51,24 @@ header{
   height: 100px;
   width: 100%;
   background-color: pink;
+}
+
+.form {
+    background-color:#2d4552;
+    position: absolute;
+   border: 1px solid black;
+    width: 500px;
+    left: calc(50% - 250px);
+    top: 300px;
+    box-shadow: 0 7px 14px rgba(0,0,0,0.25);
+    text-align: center;
+    color: white;
+}
+
+button {
+    border: none;
+    width: 80px;
+    height: 30px;
+    border-radius: 2px;
+    background-color: lightgrey;
 }
