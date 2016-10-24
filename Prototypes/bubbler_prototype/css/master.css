@@ -63,6 +63,11 @@ a, a:hover, a:active, a:visited{
   background-color: grey;
 }
 
+#postBox {
+    text-align: left;
+    width: 100%;
+}
+
 .form {
     background-color:#2d4552;
     position: absolute;
@@ -92,6 +97,11 @@ a, a:hover, a:active, a:visited{
 /* User Posts tab */
 #userPosts {
     background-color: darkgrey;
+    padding-top: 30px;
+}
+
+#userComments {
+    background-color: lightgrey;
     padding-top: 30px;
 }
 
