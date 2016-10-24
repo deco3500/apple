@@ -10,13 +10,14 @@ header{
 .head-wrap{
   /*change this*/
   width: 80%;
+  height: 25px;
   line-height: 25px;
   color: #fff;
-  height: 100px;
-  background-color: pink;
   position: absolute;
   top: 50%; left:50%;
   transform: translate(-50%,-50%);
+  display: flex;
+  justify-content: space-between;
 }
 .row{
   width: 80%;
@@ -42,7 +43,6 @@ header{
 }
 .article-box img{
   height: 100px;
-  width: 160px;
-  margin: 0 auto;
+  width: 100%;
   background-color: pink;
 }
