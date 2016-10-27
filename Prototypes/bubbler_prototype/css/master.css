@@ -22,10 +22,21 @@ h1 {
     left: calc(50% - 200px);
 }
 .submit{
-  float: left;
+    position: absolute;
+    left: 100px;
+    
 }
 .login-sign-up{
   float:right;
+}
+
+.login {
+    position: absolute;
+    right:100px;
+}
+
+.original-poster {
+    font-weight: bold;
 }
 
 a, a:hover, a:active, a:visited{
@@ -46,8 +57,23 @@ a, a:hover, a:active, a:visited{
 }
 
 .bodywrap {
-    margin-top: 200px;
+    margin-top: 260px;
     margin-bottom: 50px;
+}
+
+.sortlabel {
+    position:absolute;
+    top:190px;
+    left:140px;
+    font-family:'Work Sans';
+    font-weight:bold;
+    font-size:30px
+}
+
+.sortdropdown {
+    position:absolute;
+    top:201px;
+    left:250px;
 }
 
 .row {
@@ -64,19 +90,22 @@ a, a:hover, a:active, a:visited{
   padding: 10px;
   color: #fff;
   background-color: #2d4552;
-  text-align: center;
-    box-shadow: 0 7px 14px rgba(0,0,0,0.25)
+  text-align: left;
+    box-shadow: 0 7px 14px rgba(0,0,0,0.25);
+    font-family: 'Work Sans';
 }
 .article-box h2{
-  font-size: 15px;
+  font-size: 17px;
 }
-.article-box p{
-  font-size: 10px;
+.article-box > p{
+  font-size: 14px;
+    margin-top: 3px;
 }
 .article-box img{
   height: 100px;
   width: 100%;
   background-color: grey;
+box-shadow: 0 7px 14px rgba(0,0,0,0.25);
 }
 
 .article {
@@ -87,6 +116,10 @@ a, a:hover, a:active, a:visited{
   background-color: #2d4552;
   text-align: center;
     box-shadow: 0 7px 14px rgba(0,0,0,0.25) 
+}
+
+.article-subtitle {
+    font-style: italic;
 }
 
 iframe {
