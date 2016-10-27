@@ -80,12 +80,12 @@ a, a:hover, a:active, a:visited{
 
 /* Vertical alignment */
 #signUp {
-    height: 310px;
+    height: 330px;
     top: calc(50vh - 155px);
 }
 
 #login {
-    height: 202px;
+    height: 220px;
     top: calc(50vh - 101px);
 }
 
