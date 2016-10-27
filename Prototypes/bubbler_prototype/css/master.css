@@ -10,6 +10,7 @@ width: 100%;
   position: fixed;
     box-shadow: 0 7px 14px rgba(0,0,0,0.25);
     top: 0px;
+    left: 0px;
 }
 
 h1 {
@@ -69,7 +70,7 @@ a, a:hover, a:active, a:visited{
 
 .bodywrap {
     margin-top: 260px;
-    margin-bottom: 50px;
+    padding-bottom: 50px;
 }
 
 .sortlabel {
@@ -142,6 +143,8 @@ iframe {
 #postBox {
     text-align: left;
     width: 100%;
+    height: auto;
+    padding-bottom: 20px;
 }
 
 .form {
@@ -166,7 +169,7 @@ iframe {
 }
 
 #createArticle {
-    height: 436px;
+    height: 460px;
     top: calc(50vh - 218px);
 }
 

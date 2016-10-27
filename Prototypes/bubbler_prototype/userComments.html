@@ -5,6 +5,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="somethign">
 	<link rel="stylesheet" href="css/master.css" media="screen" title="no title">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Work+Sans:100" rel="stylesheet">
 	<title>Bubbler</title>
 </head>
@@ -19,13 +20,13 @@
 				<p class="sign-up"><a href="#">Sign Up</a></p>
 		</section>
         </section>
-	</header>
-    <br>
-    <h1>MrJesseHead12344567890</h1>
-    <br>
-    <h2 id="tabPosts" onclick="#index.html">Posts</h2>
+	</header> 
+    <section class="userWrap" style="margin-top:200px;">
+    <h2 style="text-align:center">MrJesseHead12344567890</h2>
+    <h2 id="tabPosts">Posts</h2>
     <h2 id="tabComments">Comments</h2>
-    <div id="userComments">
+    </section>
+       <section class="bodywrap" style="margin-top:000px;background-color:lightgrey;padding-top:50px;">
 	<section class="row">
 		<div class="article-box" id="postBox">
 			<h2 class="commentName">Trump did something</h2><br>
@@ -61,6 +62,15 @@
 			<p class="comment">Anyway, like I was sayin’, shrimp is the fruit of the sea. You can barbecue it, boil it, broil it, bake it, saute it. There’s shrimp-kabobs, shrimp creole, shrimp gumbo. Pan fried, deep fried, stir-fried. There’s pineapple shrimp, lemon shrimp, coconut shrimp, pepper shrimp, shrimp soup, shrimp stew, shrimp salad, shrimp and potatoes, shrimp burger, shrimp sandwich. That, that’s about it.</p>
 		</div>
 	</section>
-        </div>
+        <script>
+    $(document).ready(function () {
+       $('.article-box').click(function () {
+          window.location = 'article.html' 
+       });
+        $('#tabPosts').click(function () {
+          window.location = 'userArticles.html' 
+       });
+    }); 
+           </script>
 </body>
 </html>

@@ -25,10 +25,10 @@
     <section class="bodywrap">
         <p class="sortlabel">Sort by:</p>
         <select class="sortdropdown">
-  <option value="volvo">New</option>
-  <option value="saab">Top</option>
-  <option value="opel">Hot</option>
-  <option value="audi">Controversial</option>
+  <option value="New">New</option>
+  <option value="Top">Top</option>
+  <option value="Hot">Hot</option>
+  <option value="Con">Controversial</option>
 </select>
 	<section class="row">
 		<div class="article-box">
@@ -186,7 +186,13 @@
        $('.article-box').click(function () {
           window.location = 'article.html' 
        });
+        $('.original-poster').click(function (event) {
+            event.stopPropagation();
+          window.location = 'userArticles.html' 
+       });
     });
+        
+        
         
     </script>
 </body>

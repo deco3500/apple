@@ -5,6 +5,8 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="somethign">
 	<link rel="stylesheet" href="css/master.css" media="screen" title="no title">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Work+Sans:100" rel="stylesheet">
 	<title>Bubbler</title>
 </head>
 <body>
@@ -12,18 +14,19 @@
 		<section class="head-wrap">
 			<p class="submit"><a href="">Submit an Article</a></p>
 			<!-- <img src="#" alt="logo"> -->
-			<h1 class = "logo"><a href="">BUBBLER</a></h1>
+			<h1 class = "logo"><a href="index.html">BUBBLER</a></h1>
 			<section class="login-sign-up">
 				<p class="login"><a href="login.html">Login</a></p>
 				<p class="sign-up"><a href="#">Sign Up</a></p>
 		</section>
         </section>
-	</header>    
-    <section class="bodywrap">
-<h2 style="text-align:center">MrJesseHead12344567890</h2>
+	</header> 
+    <section class="userWrap" style="margin-top:200px;">
+    <h2 style="text-align:center">MrJesseHead12344567890</h2>
     <h2 id="tabPosts">Posts</h2>
     <h2 id="tabComments">Comments</h2>
-       <section class="bodywrap" style="margin-top:0px;">
+    </section>
+       <section class="bodywrap" style="margin-top:000px;background-color:darkgrey;padding-top:50px;">
 	<section class="row">
 		<div class="article-box">
 		<img src="http://loremflickr.com/200/100/politics?random=1" alt="article_image">
@@ -174,17 +177,16 @@
 			<p class="original-poster">by Trump2016</p>
 		</div>
 	</section>
-        </section>
     <script>
     $(document).ready(function () {
        $('.article-box').click(function () {
           window.location = 'article.html' 
        });
+        $('#tabComments').click(function () {
+          window.location = 'userComments.html' 
+       });
     });
         
-    </script>
-        
-<!--    COmments -->
-        
+           </script>
 </body>
 </html>
