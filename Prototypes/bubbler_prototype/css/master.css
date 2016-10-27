@@ -1,7 +1,7 @@
 *{
   margin: 0; padding:0;
 }
-body{font-family: sans-serif;}
+body{font-family: 'Work Sans', sans-serif;}
 
 header{
   background-color:#2d4552;
@@ -65,7 +65,8 @@ a, a:hover, a:active, a:visited{
   position: absolute;
   top: 50%; left:50%;
   transform: translate(-50%,-50%);
-
+    font-family: 'Work Sans', 'sans-serif';
+    font-weight: bold;
 }
 
 .bodywrap {
@@ -159,7 +160,7 @@ iframe {
 
 /* Vertical alignment */
 #signUp {
-    height: 350px;
+    height: 370px;
     top: calc(50vh - 155px);
 }
 
@@ -169,7 +170,7 @@ iframe {
 }
 
 #createArticle {
-    height: 460px;
+    height: 480px;
     top: calc(50vh - 218px);
 }
 
