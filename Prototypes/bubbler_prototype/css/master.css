@@ -98,7 +98,7 @@ a, a:hover, a:active, a:visited{
   padding-bottom: 10px;
 }
 .article-box{
-  width: 200px; height: 200px;
+  width: 250px; height: 250px;
   margin: 0;
   padding: 10px;
   color: #fff;
@@ -115,7 +115,7 @@ a, a:hover, a:active, a:visited{
     margin-top: 3px;
 }
 .article-box img{
-  height: 100px;
+  height: 150px;
   width: 100%;
   background-color: grey;
 box-shadow: 0 7px 14px rgba(0,0,0,0.25);
