@@ -106,7 +106,13 @@ a, a:hover, a:active, a:visited{
   text-align: left;
     box-shadow: 0 7px 14px rgba(0,0,0,0.25);
     font-family: 'Work Sans';
+    transition: all .2s ease-in-out;
 }
+
+.article-box:hover {
+    transform: translateY(-8px);
+}
+
 .article-box h2{
   font-size: 17px;
 }
