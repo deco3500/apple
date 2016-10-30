@@ -1,4 +1,4 @@
-# Bubbler Proposal
+# README
 
 ## Introduction
 As news sources have moved to the web, algorithms are playing an increasingly critical role in delivering news to consumers. Be it video, articles, or shorter posts, algorithms are filtering the type of news on a per person basis in an attempt to increase click through rates. The main result is an increase in news that aligns to a person's pre-existing views. In terms of politics, someone who historically views left leaning news will be continually delivered similar content as a result of modern algorithms. 
