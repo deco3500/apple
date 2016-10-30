@@ -1,6 +1,7 @@
 # Bubbler.io
 
 ## Summary
+A report of the entire design process can be found in this [Google Doc](https://docs.google.com/document/d/1J328tn3ljgG6IaetxY8ZJhWs4Ah5l1Pge6WJ7UWeRf8/edit?usp=sharing)
 (insert _summary_ of project here not an essay)
 
 ## Promotional Material
