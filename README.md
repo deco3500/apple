@@ -9,16 +9,18 @@
 ## File Structure
 ### proposal.md
 This file is the initial proposal of this project. It provides background and more insight into the inspiration of the project as well as project/team management procedures and plans.
-### Ideas (folder)
+### Folders
+
+#### Ideas
 This folder contains our mockups, iterations of ideas and research for various different inspirations leading up to the final idea. 
 
-### Process and Documentation (folder)
+#### Process and Documentation
 This folder includes documentation from different stages in the design process as well as a research document which includes User Journeys and more relevant inspirations.
 
-### Prototypes (folder)
+#### Prototypes
 This folder contains the prototypes used in testing throughout the design process as well as mockups involved leading up to the actual prototype development.
 
-### Voting system (folder)
+#### Voting system
 This folder contains the prototype of the original voting system which is used in /Prototypes/bubbler_prototype/article.html. 
 
 ## Team
