@@ -5,7 +5,7 @@ A report of the entire design process can be found in this [Google Doc](https://
 (insert _summary_ of project here not an essay)
 
 ## Promotional Material
-[Promotional marketing video.](https://www.youtube.com/watch?v=9_KLGRc0-mY)
+[Promotional marketing video] - YouTube link(https://www.youtube.com/watch?v=9_KLGRc0-mY)
 
 ## Built with
 - [jquery comments](http://viima.github.io/jquery-comments/) by [Viima](https://github.com/Viima)
