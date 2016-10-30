@@ -29,9 +29,14 @@ This folder contains the prototypes used in testing throughout the design proces
 #### [Voting system](https://github.com/deco3500/apple/tree/master/voting%20system)
 This folder contains the prototype of the original voting system which is used in /Prototypes/bubbler_prototype/article.html. 
 
-## Team
-Name | Student Number | Course Code | Role 
-:---:|---| :---: | :---:
-Chris Wilkinson | 43942004 | BInfTech/BBusMan | Concept Definition
-Jesse Head | 43239151 | BInfTech | Head of UX
-Edward Liao | 43555299	| BInfTech | Communication and Team Management
+## Roles
+
+### Edward
+- Document creation and planning
+- User journeys 
+- High quality prototype (marvel)
+- Voting system prototype
+- Questionnaires
+- Github project integration and structuring
+- Research Documentation
+
